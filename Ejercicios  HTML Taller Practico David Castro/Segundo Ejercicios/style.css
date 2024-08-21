@@ -1,0 +1,38 @@
+*,::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+    font-family: 'Calibri', sans-serif;
+}
+  
+.header,h1,footer{
+    background-color: rgb(51, 123, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.fondogris{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(238, 232, 232);
+    display: flex;
+    justify-items: center;
+    justify-content:center;
+    
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid rgb(158, 158, 158);
+}
+
+table{
+    border-collapse: collapse;
+    padding: auto;
+    width: 100%;
+}
+

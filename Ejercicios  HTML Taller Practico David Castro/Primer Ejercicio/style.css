@@ -1,0 +1,41 @@
+*,::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+
+}
+  
+.heather,h1{
+    background-color: rgb(3, 134, 238);
+    color: white;
+    display: flex; justify-content: center;
+    
+}
+
+.fondogris{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(216, 213, 213);
+    display: flex;
+    justify-items: center;
+    justify-content:center;
+    
+}
+
+.contenido{
+    width: 50vw;
+    height: 100%;
+    flex-direction:column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box
+
+    
+}
+
+p, h1, h2{
+    font-family: 'Calibri', sans-serif;
+}
